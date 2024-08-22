@@ -1,0 +1,11 @@
+1. cd Desktop
+2. mkdir Papka nomi
+3. cd Papka nomi
+4. virtualenv venv
+5. ./venv/Scripts/activate
+6. pip install django
+7. django-admin startproject core .
+8. py manage.py makemigrations <--- agar migratsiya yuritmoqchi bo'lsa
+9. py manage.py migrate
+10. py manage.py myapp
+
